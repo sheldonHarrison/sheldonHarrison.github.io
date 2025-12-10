@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+    Author Name: Sheldon Harrison
+    File Name: contact.html
+    Date: 12/08/2025
+-->
+<html lang="en">
+<head>
+    <title>Xbox or Playstation? Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Screenshot 2025-12-09 180041.ico">
+</head>
+<body>
+    <header>
+        <h1><span class="tab-desk">Xbox or Playstation?</span></h1>
+    </header>
+    
+        <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="creators.html">Creators</a>
+            <a href="xbox.html">Xbox</a>
+            <a href="playstation.html">Playstation</a>
+            <a href="comparison.html">Comparison</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()"></a>
+    </nav>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="creators.html">Creators</a></li>
+            <li><a href="xbox.html">Xbox</a></li>
+            <li><a href="playstation.html">Playstation</a></li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="contact">
+            <h2>Contact xbox or playstation to order your self a console or if you have more questions.</h2>
+            <p class="tel-link mobile"><a href="1-800-249-SONY (7669)"></a>Sony's phone: 1-800-249-SONY (7669)</p>
+            <p class="tel-link mobile"><a href="877-345-2661"></a>Microsoft's phone:877-345-2661</p>
+            <p class="tab-desk">Sony's phone:1-800-249-SONY (7669)</p>
+            <p class="tab-desk">Microsoft's phone:877-345-2661</p>
+            <p>Email:<a href="mailto:support@ae.playstation.com" class="email-link">support@ae.playstation.com</a></p>
+            <p>Microsoft is located at: 1 Microsoft Way, Redmond, WA 98052, USA</p>
+            <p>Sony is located at: 25 Madison Avenue, New York, NY 10010</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9167604096892!2d-73.9870218!3d40.7418571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a875727aef%3A0x43fb22128dd1b75c!2sSony%20Corporation%20of%20America!5e0!3m2!1sen!2sus!4v1765248571973!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.1037383798416!2d-122.13059910000001!3d47.64355090000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d0ac90667e5%3A0xf940d415c5e56bce!2sMicrosoft%20Way%2C%20Redmond%2C%20WA%2098052!5e0!3m2!1sen!2sus!4v1765248646536!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+        <div id="form">
+            <h2>Complete the form below and one of our staff members will contact you and give you even more information on each console and help you decide which one is best for you.</h2>
+            <form class="form-grid"><!-- Start Form -->
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName">
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lname" id="lName">
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone"  name="phone">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Console Intrest</legend>
+                    <p>I am interested in:</p>
+                    <label for="xbox">Xbox:</label>
+                    <input type="radio" name="intrest" id="xbox" value="Xbox">
+
+                    <label for="Playstation">Playstation:</label>
+                    <input type="radio" name="intrest" id="Playstation" value="Playstation">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+                        <label for="emailContact">Email</label>
+                        <input type="checkbox" id="emailContact" name="contactMethod" value="Email">
+                        
+                        <label for="phoneContact">Phone</label>
+                        <input type="checkbox" id="phoneContact" name="contactMethod" value="Phone">
+                </fieldset>
+
+                <fieldset>
+                    <label for="help">Did the website help:</label><br>
+                    <select id="help" name="help">
+                    <option value="yes">Yes, it helped</option>
+                    <option value="no">No, it did not</option>
+                    </select>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="btn">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; Copyright 2025. All rights Reserved.</p>
+            <p><a href="mailto:support@ae.playstation.com">support@ae.playstation.com</a></p>
+        </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
